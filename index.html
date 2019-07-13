@@ -1,97 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <title>Portfolio | Cam</title>
+    <title>Portfolio | Cam Liao</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Material Design Lite -->
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-lime.min.css">
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
-    <!-- Font Awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
 
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="styles/main.css">
+    <!-- Custom Styles
+    <link rel="stylesheet" href="styles/main.css"> -->
   </head>
 
   <body>
-    <header class="mdl-layout__header mdl-layout__header--transparent">
-      <h1>Cam</h1>
-      <p class="slogan">UX/UI Designer in Atlanta.</p>
+    <!-- Navigation -->
+    <nav class="navigation">
+      <a class="logo" href="index.html">
+        <img class="icon-logo" src="images/personal-logo.png"  alt="Cam logo" srcset="images/personal-logo.png 2x">
+      </a>
+      <a class="nav-links" href="#projects-section">Work</a>
+      <a class="nav-links" href="about.html">About</a>
+      <a class="nav-links" href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Intro section -->
+    <header class="header-home">
+      <h1 class="intro">Hi there!  I'm Cam — it's nice to meet you.</br>
+        I'm a UX/UI Designer in Atlanta.</h1>
+
+      <div class="intro-subgroup">
+        <img class="icon-phone" src="images/icon-phone.png" alt="Phone icon" srcset="images/icon-phone.png 2x">
+        <p class="intro-fact"> Design is more than just the pixels on the screen. I’m here to craft</br>
+        meaningful and thoughtfully-designed experiences for others.</p>
+
+        <img class="icon-phone" src="images/icon-call-agent.png" alt="Call agent icon" srcset="images/icon-call-agent.png 2x">
+        <p class="intro-fact">I’ve worked as a call center representative: learning about customers’</br>
+        frustrations made me really put myself in their shoes.</p>
+
+        <img class="icon-phone" src="images/icon-coffee.png" alt="Coffee icon" srcset="images/icon-coffee.png 2x">
+        <p class="intro-fact">I also drink too much coffee and geek out over fonts sometimes.</p>
+      </div>
     </header>
 
-    <main class="mdl-layout__content mdl-grid">
+    <!-- Work -->
+    <h2 class="Work">Work</h2>
+      <div id="work-section" class="info-ideaLAB">
 
-      <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
-          <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
-             <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"/>
-           </div>
-           <div class="mdl-cell mdl-cell--7-col">
-             <h2 class="mdl-card__title-text">Featured Project Name</h2>
-             <p class="project-description mdl-card__supporting-text">Project description text</p>
-           </div>
-         </div>
+        <div class="project-info">
+            <h3 class="project-title">ideaLAB</h3>
+            <p class="project-description">A cloud storage application that focuses on productivity and project management.</p>
+            <a class="button case-study" href="ideaLAB.html">View Case Study</a>
+        </div>
 
-      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-        <div>
-          <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
-        </div>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text">Project Name</h2>
-        </div>
-          <div class="mdl-card__supporting-text">Project description text</div>
-       </div>
+        <img class="mockup-laptop" src="images/laptop-prototype-home.png" alt="Mockup" srcset="images/laptop-prototype-home.png 2x">
+    </div>
 
-      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-        <div>
-          <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
-        </div>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text">Project Name</h2>
-        </div>
-        <div class="mdl-card__supporting-text">Project description text</div>
-      </div>
+    <!-- Footer -->
+    <footer>
+      <span class="footer-line"></span>
+        <ul class="social-links">
+            <li>
+              <a href="mailto:camkliao@gmail.com" target="_blank"><img class="icon" src="images/icon-gmail.png" alt="Gmail icon" srcset="images/icon-gmail.png 2x"></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/camliao/" target="_blank"><img class="icon" src="images/icon-linkedin.png" alt="LinkedIn icon" srcset="images/icon-linkedin.png 2x"></a>
+            </li>
+            <li>
+              <a href="https://github.com/camliao" target="_blank"><img class="icon" src="images/icon-github.png" alt="Github icon" srcset="images/icon-github.png 2x"></a>
+            </li>
+        </ul>
+        <p class="copyright">© 2019. Designed + developed by Cam Liao.</p>
+    </footer>
 
-      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-        <div>
-          <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
-        </div>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text">Project Name</h2>
-        </div>
-        <div class="mdl-card__supporting-text">Project description text</div>
-      </div>
-     </main>
 
-     <footer class="mdl-mini-footer">
-       <ul class="mdl-mini-footer__link-list">
-         <li>
-           <a href="https://www.linkedin.com/in/camliao/">
-             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-           </a>
-         </li>
-         <li>
-           <a href="https://github.com/camliao">
-             <i class="fa fa-github-square" aria-hidden="true"></i>
-           </a>
-         </li>
-         <li>
-           <a href="{Your Facebook Profile URL}">
-             <i class="fa fa-facebook-square" aria-hidden="true"></i>
-           </a>
-         </li>
-         <li>
-           <a href="{Your Twitter URL}">
-             <i class="fa fa-twitter-square" aria-hidden="true"></i>
-           </a>
-         </li>
-         <li>
-           <a href="mailto:camkliao@gmail.com">
-             <i class="fa fa-envelope-square" aria-hidden="true"></i>
-           </a>
-         </li>
-       </ul>
-     </footer>
 
   </body>
 </html>
