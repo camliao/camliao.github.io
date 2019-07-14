@@ -73,7 +73,7 @@
           </ul>
      </div>
   </div> <!-- this div corresponds with div class="project-info" -->
-</div> <!-- this div corresponds with div class="ideaLAB-intro" -->
+</div> <!-- this div corresponds with <div class="ideaLAB-intro"> -->
 
 <!-- OVERVIEW + DESIGN PROCESS SECTION -->
 <section class="overview">
@@ -170,7 +170,7 @@
   With these requirements in mind, we first needed to conduct user research to inform our strategy, and understand user needs were.
   </p>
   <span class="section-divider"><hr></span>
-</section> <!-- corresponds to <section class="understand"> -->
+</section> <!-- corresponds to <section class="01-understand"> -->
 
 <!-- SECTION 02 RESEARCH -->
 <section class="02-research">
@@ -250,10 +250,150 @@
     <p class="user-surveys-paragraph-text">When analyzing the survey and interview data, two main types of users emerged: the Constant Collaborator (works off of multiple documents and collaborates/shares files often), and the Gatherer-Saver persona (someone who collects and uploads many files).
     </p>
 
-    <div class="user-personas">
+    <div class="personas"> <!-- Includes both Dana and Caleb -->
+      <!-- ================================================================= -->
+      <div class="dana"> <!-- Dana's persona block -->
+        <div class="dana-card"> <!-- the blue container -->
+          <p class="persona-name">Dana</p>
+          <p class="persona-type">The Constant Collaborator</p>
+          <img class="persona" src="images/persona-dana.png" alt="Dana" srcset="images/persona-dana.png 2x">
+        </div>
+        <div class="dana-info"> <!-- the grey container -->
+          <!-- Age -->
+           <h6 class="persona-subheadings">Age</h6>
+           <p class="persona-description">32</p>
+           <!-- Job -->
+           <h6 class="persona-subheadings">Job</h6>
+           <p class="persona-description">Startup project manager</p>
+           <!-- Goals -->
+           <h6 class="persona-subheadings">Goals</h6>
+            <ul class="goals">
+              <li class="persona-description">Set user permissions to determine who can view, edit, or move files</li>
+              <li class="persona-description">Make sharing files more secure when sharing with people outside of the organization </li>
+            </ul>
+          <!-- Frustrations -->
+          <h6 class="persona-subheadings">Frustrations</h6>
+           <ul class="frustrations">
+             <li class="persona-description">User permission settings are not robust enough</li>
+             <li class="persona-description">Current user interface’s way of organizing and moving files does not feel as intuitive as on the desktop</li>
+           </ul>
+           <!-- Motivations -->
+           <h6 class="persona-subheadings">Motivations</h6>
+           <p class="persona-description">Dana constantly shares content with a range of people: clients, sub-contractors, and former colleagues (when she needs some advice) that requires settings differeng user permissions.<br><br>
+             She wishes this process would give her more options than just “can view” or “can edit.” Sometimes, she only wants people to leave comments, but has to give them full editing permissions in order to do so.</p>
+        </div> <!-- end of grey container block -->
+      </div> <!-- end of Dana's persona block -->
+      <!-- ================================================================= -->
 
-  </div> <!-- corresponds to <div class="user-personas-subgroup"> -->
-
-
-
+      <!-- ================================================================= -->
+      <div class="Caleb"> <!-- Caleb's persona block -->
+        <div class="caleb-card"> <!-- the blue container -->
+          <p class="persona-name">Caleb</p>
+          <p class="persona-type">The Gatherer-Saver</p>
+          <img class="persona" src="images/persona-caleb.png" alt="Dana" srcset="images/persona-caleb.png 2x">
+        </div>
+        <div class="caleb-info"> <!-- the grey container -->
+          <!-- Age -->
+           <h6 class="persona-subheadings">Age</h6>
+           <p class="persona-description">28</p>
+           <!-- Job -->
+           <h6 class="persona-subheadings">Job</h6>
+           <p class="persona-description">PhD Research Assistant</p>
+           <!-- Goals -->
+           <h6 class="persona-subheadings">Goals</h6>
+            <ul class="goals">
+              <li class="persona-description">Upload and organize research articles, scanned book pages, and other data</li>
+              <li class="persona-description">Create new word documents within the app to take notes</li>
+            </ul>
+          <!-- Frustrations -->
+          <h6 class="persona-subheadings">Frustrations</h6>
+           <ul class="frustrations">
+             <li class="persona-description">Cannot add tags or labels to content as a different way to organize content</li>
+             <li class="persona-description">Accessing content from mobile when on the go is not as robust as from a laptop or desktop</li>
+           </ul>
+           <!-- Motivations -->
+           <h6 class="persona-subheadings">Motivations</h6>
+           <p class="persona-description">As a PhD student, Caleb needs to organize massive amounts of research articles, scanned documents, and other data he compiles.<br><br>
+             To carry around all of these documents wherever he goes is messy, so Caleb lives off of cloud storage. However, he wishes there were a way to add tags to his content--so if he searches “Post-War 1950,” he can see across all folders the content related to this topic.
+           </p>
+        </div> <!-- end of grey container block -->
+      </div> <!-- end of Caleb's persona block -->
+      <!-- ================================================================= -->
+   </div> <!-- corresponds to <div class="personas"> and wraps both Dana + Caleb persona blocks-->
+  </div> <!-- corresponds to <div class="user-personas-subgroup"> wraps up entire persona subgroup section -->
 </section> <!-- corresponds to <section class="02-resesarch"> -->
+
+<!-- SECTION 03 INFORMATION ARCHITECTURE -->
+<section class="03-information-architecture">
+  <div class="long-section-heading-group">
+    <h2 class="section-heading">03 Information Architecture</h2>
+      <ul class=overview> <!-- lists out Plan, Prototype, Test + Redesign -->
+        <li class="long-section-heading-title">Overview</li>
+
+        <div class="plan">
+          <span class="circle"></span>
+          <span class="dotted-line"></span>
+          <li class="long-section-heading-title">Plan</li>
+            <p class="uxprocess-tag">User Stories</p>
+            <p class="uxprocess-tag">User Flows</p>
+            <p class="uxprocess-tag">Sitemap</p>
+            <p class="uxprocess-tag">Content Strategy</p>
+        </div>
+
+        <div class="prototype">
+          <span class="circle"></span>
+          <span class="dotted-line"></span>
+          <li class="long-section-heading-title">Prototype</li>
+            <p class="uxprocess-tag">Sketching</p>
+            <p class="uxprocess-tag">Wireframes</p>
+            <p class="uxprocess-tag">Low-Fi Prototype</p>
+        </div>
+
+        <div class="ia-testAndReDesign">
+          <span class="circle"></span>
+          <span class="dotted-line"></span>
+          <li class="long-section-heading-title">Test + Redesign</li>
+            <p class="uxprocess-tag">Usability Testing</p>
+        </div>
+
+      </ul> <!-- End of overview list -->
+  </div> <!-- correponds to <div class="long-section-heading-group"> -->
+
+  <!-- PLAN -->
+  <div class="ia-plan-subsection">
+    <h2 class="smallcaps-large-heading">Plan<span class="subdivider-plan"></span></h2>
+    <div class="userStoriesAndFlows-subgroup">
+      <h3 class="section-subheading">User Stories and User Flows</h3>
+        <p class="userStoriesAndFlows-paragraph-text">To determine the features going into our minimum viable product (MVP), I created a list of user stories and flows to detail how new and returning users would go through the onboarding process, create content, move files, and more. This information architecture served as a guide and template for creating the product.
+        </p>
+        <img class="userstories" src="images/userstories.png" alt="User stories" srcset="images/userstories.png 2x">
+        <a class="button" href="Insert User Stories Link Here" target="_blank">View All Stories</a>
+
+        <img class="userflows" src="images/userflow1.png" alt="User flow" srcset="images/userflow1.png 2x">
+        <img class="userflows" src="images/userflow2.png" alt="User flow" srcset="images/userflow2.png 2x">
+        <a class="button" href="Insert User Stories Link Here" target="_blank">View All Flows</a>
+    </div> <!-- wraps up userStoriesAndFlows subgroup -->
+  </div> <!-- corresponds to <div class="ia-plan-subsection"> -->
+
+  <!-- PROTOTYPE -->
+  <div class="ia-prototype-subsection">
+    <h2 class="smallcaps-large-heading">Prototype<span class="subdivider-prototype"></span></h2>
+    <div class="sketching-subgroup">
+      <h3 class="section-subheading">Sketching - Wireframes - Low-Fi Prototype</h3>
+        <p class="sketching-paragraph-text">Based on the user stories and user flows, I sketched a few iterations before developing them into low-fidelity wireframes in Figma. The wireframing stage was important in making sure I was capturing each step of the process and made me realize where user flows may need to be edited. The wireframes were used to create a clickable prototype in Invision for usability testing.
+        </p>
+
+      <div class="sketchesAndWireframes-container"> <!-- blue containers that holds sketches+wireframes -->
+        <img 1>
+        <img 2>
+        <img 3>
+      </div> <!-- corresponds with <div class="sketchesAndWireframes-container"> -->
+   </div>
+  </div> <!-- corresponds to  <div class="ia-prototype-subsection"> wraps up Prototype subsection-->
+
+  <!-- TEST + REDESIGN -->
+  <div class="ia-testAndRedesign-subsection">
+  </div> <!-- corresponds to  <div class="ia-testAndRedesign-subsection"> wraps up Test + Redesign subsection-->
+
+
+</section> <!-- corresponds to <section class="03-information-architecture"> -->
