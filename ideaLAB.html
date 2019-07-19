@@ -91,7 +91,7 @@
   <h2 class="section-heading">The Design Process</h2>
     <div class="design-process-container">
       <div class="column1-understand">
-        <h4 class="design-process-heading">01<br>Understand</h4>
+        <h3 class="design-process-heading">01<br>Understand</h3>
         <ul class="design-process-tasks">
           <li>Client brief</li>
           <li>Requirements</li>
@@ -100,7 +100,7 @@
       </div> <!-- corresponds to div class="column1-understand" -->
 
       <div class="column2-research">
-        <h4 class="design-process-heading">02<br>Research</h4>
+        <h3 class="design-process-heading">02<br>Research</h3>
         <ul class="design-process-tasks">
           <li>Competitive analysis</li>
           <li>User surveys</li>
@@ -110,7 +110,7 @@
       </div> <!-- corresponds to div class="column2-research" -->
 
       <div class="column3-infomation-architecture">
-        <h4 class="design-process-heading">03<br>Information Architecture</h4>
+        <h3 class="design-process-heading">03<br>Information Architecture</h3>
         <ul class="design-process-tasks">
           <li>User stories</li>
           <li>User flows</li>
@@ -123,7 +123,7 @@
       </div> <!-- corresponds to div class="column3-information-architecture" -->
 
       <div class="column4-visual-design">
-        <h4 class="design-process-heading">04<br>Visual Design</h4>
+        <h3 class="design-process-heading">04<br>Visual Design</h3>
         <ul class="design-process-tasks">
           <li>Brand story</li>
           <li>Logo design</li>
@@ -134,7 +134,7 @@
       </div> <!-- corresponds to div class="column4-visual-design" -->
 
       <div class="column5-test">
-        <h4 class="design-process-heading">05<br>Test</h4>
+        <h3 class="design-process-heading">05<br>Test</h3>
         <ul class="design-process-tasks">
           <li>Usability testing</li>
           <li>User interviews</li>
@@ -154,20 +154,23 @@
     </p>
   </div> <!-- corresponds to <div class="section-heading-group"> -->
 
-  <p class="understand-paragraph-text">A client approached us with the task of developing a new cloud storage application to compete with some big-name competitors in the space (Google Drive, Dropbox, Box, Evernote, Pinterest).<br>
+  <div class="understand-paragraph-text">
+    <p>A client approached us with the task of developing a new cloud storage application to compete with some big-name competitors in the space (Google Drive, Dropbox, Box, Evernote, Pinterest).</p>
+    <p>To meet business goals and objectives, the application needed to include the following features:</p>
+    <ul>
+      <li>saving content you find on the web (links, images, videos, etc.)</li>
+      <li>organizing content using things like categories, tags, groups, and/or folders</li>
+      <li>creating content (notes, documents, maybe spreadsheets)</li>
+      <li>uploading files (videos, images, PDFs, etc.) from a computer or mobile device</li>
+    </ul>
 
-  To meet business goals and objectives, the application needed to include the following features:
-  • saving content you find on the web (links, images, videos, etc.)<br>
-  • organizing content using things like categories, tags, groups, and/or folders<br>
-  • creating content (notes, documents, maybe spreadsheets)<br>
-  • uploading files (videos, images, PDFs, etc.) from a computer or mobile device<br><br>
+    <p>The client also wanted to explore collaboration features as well:<p>
+    <ul>
+      <li>sharing a single item/groups of items with someone else (and vice-versa)</li>
+      <li>connecting with other users for real-time collaboration in notes or documents<li>
 
-  The client also wanted to explore collaboration features as well:
-  • sharing a single item/groups of items with someone else (and vice-versa)<br>
-  • connecting with other users for real-time collaboration in notes or documents<br>
-
-  With these requirements in mind, we first needed to conduct user research to inform our strategy, and understand user needs were.
-  </p>
+    <p>With these requirements in mind, we first needed to conduct user research to inform our strategy, and understand user needs were.</p>
+  </div>
   <span class="section-divider"></span>
 </section> <!-- corresponds to <section class="01-understand"> -->
 
@@ -192,17 +195,17 @@
     <div class="companalysis-breakdown">
       <div class="dropbox">
         <img class="competitor-icon" src="images/icon-dropbox.png" alt="Dropbox icon" srcset="images/icon-dropbox.png 2x">
-        <p class="competitor-description"><strong>Dropbox:</strong> Offers a more robust feature set for sharing files (i.e. password protected links), and people like Dropbox to store and access files.
+        <p class="competitor-description"><strong>Dropbox:</strong> Offers a more robust feature set for sharing files (i.e. password protected links), and people like Dropbox to store and access files.</p>
       </div>
 
       <div class="google-drive">
         <img class="competitor-icon" src="images/icon-gdrive.png" alt="Google Drive icon" srcset="images/icon-gdrive.png 2x">
-        <p class="competitor-description"><strong>Google Drive:</strong> People like using Drive for content creation, and it integrates well with e-mail accounts and other applications.
+        <p class="competitor-description"><strong>Google Drive:</strong> People like using Drive for content creation, and it integrates well with e-mail accounts and other applications.</p>
       </div>
 
       <div class="evernote">
         <img class="competitor-icon" src="images/icon-evernote.png" alt="Evernote icon" srcset="images/icon-evernote.png 2x">
-        <p class="competitor-description"><strong>Evernote:</strong> Positions itself as “the best note-taking app” and productivity tool -- unlike Google Drive and Dropbox, it focuses more on creating notes and managing your to-do’s.
+        <p class="competitor-description"><strong>Evernote:</strong> Positions itself as “the best note-taking app” and productivity tool -- unlike Google Drive and Dropbox, it focuses more on creating notes and managing your to-do’s.</p>
       </div>
 
     </div> <!-- corrresponds to <div class="companalysis-breakdown"> -->
@@ -212,11 +215,11 @@
   <!-- User Surveys -->
   <div class="user-surveys-subgroup">
     <h3 class="section-subheading">User Surveys</h3>
-    <p class="user-surveys-paragraph-text">I conducted a user survey to better understand users’ current likes and dislikes with cloud storage apps in the market.  </p>
+    <p class="user-surveys-paragraph-text">I conducted a user survey to better understand users’ current likes and dislikes with cloud storage apps in the market.</p>
     <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSd8b_bhMyaWk9_3xH_LCn9hn3MboBZqhBa7KRja05MuC9e61Q/closedform" target="_blank">View Survey</a>
 
     <div class="user-survey-breakdown">
-      <h5 class="smallcaps-subheading">Key Insights</h5>
+      <h4 class="smallcaps-subheading">Key Insights</h4>
       <div class="user-survey-breakdown-container">
         <p class="survey-insight"><span class="large-stats">86%</span> of users felt they currently spent too much time trying to sort through and organize their uploaded content.</p>
         <p class="survey-insight"><span class="large-stats">55% of users responded they collaborate and work in the cloud “very often” (several times per week), indicating collaboration features would be important.</span></p>
@@ -232,7 +235,7 @@
     <p class="user-surveys-paragraph-text">I conducted follow-up interviews with three survey respondents as well. Below are some of the key findings:</p>
 
     <div class="user-interviews-breakdown">
-      <h5 class="smallcaps-subheading">Key Insights</h5>
+      <h4 class="smallcaps-subheading">Key Insights</h4>
         <p class="interview-insight">
           <span class="vertical-bar"></span>Keeping things as simple and easy to use as possible is important if you want people to keep coming back and use the service.
         </p>
@@ -259,27 +262,27 @@
         </div>
         <div class="dana-info"> <!-- the grey container -->
           <!-- Age -->
-           <h6 class="persona-subheadings">Age</h6>
+           <p class="persona-subheadings">Age</p>
            <p class="persona-description">32</p>
            <!-- Job -->
-           <h6 class="persona-subheadings">Job</h6>
+           <p class="persona-subheadings">Job</p>
            <p class="persona-description">Startup project manager</p>
            <!-- Goals -->
-           <h6 class="persona-subheadings">Goals</h6>
+           <p class="persona-subheadings">Goals</p>
             <ul class="goals">
               <li class="persona-description">Set user permissions to determine who can view, edit, or move files</li>
               <li class="persona-description">Make sharing files more secure when sharing with people outside of the organization </li>
             </ul>
           <!-- Frustrations -->
-          <h6 class="persona-subheadings">Frustrations</h6>
+          <p class="persona-subheadings">Frustrations</p>
            <ul class="frustrations">
              <li class="persona-description">User permission settings are not robust enough</li>
              <li class="persona-description">Current user interface’s way of organizing and moving files does not feel as intuitive as on the desktop</li>
            </ul>
            <!-- Motivations -->
-           <h6 class="persona-subheadings">Motivations</h6>
-           <p class="persona-description">Dana constantly shares content with a range of people: clients, sub-contractors, and former colleagues (when she needs some advice) that requires settings differeng user permissions.<br><br>
-             She wishes this process would give her more options than just “can view” or “can edit.” Sometimes, she only wants people to leave comments, but has to give them full editing permissions in order to do so.</p>
+           <p class="persona-subheadings">Motivations</p>
+           <p class="persona-description">Dana constantly shares content with a range of people: clients, sub-contractors, and former colleagues (when she needs some advice) that requires settings differeng user permissions.</p>
+           <p class="persona-description">She wishes this process would give her more options than just “can view” or “can edit.” Sometimes, she only wants people to leave comments, but has to give them full editing permissions in order to do so.</p>
         </div> <!-- end of grey container block -->
       </div> <!-- end of Dana's persona block -->
       <!-- ================================================================= -->
@@ -293,27 +296,27 @@
         </div>
         <div class="caleb-info"> <!-- the grey container -->
           <!-- Age -->
-           <h6 class="persona-subheadings">Age</h6>
+           <p class="persona-subheadings">Age</p>
            <p class="persona-description">28</p>
            <!-- Job -->
-           <h6 class="persona-subheadings">Job</h6>
+           <p class="persona-subheadings">Job</p>
            <p class="persona-description">PhD Research Assistant</p>
            <!-- Goals -->
-           <h6 class="persona-subheadings">Goals</h6>
+           <p class="persona-subheadings">Goals</p>
             <ul class="goals">
               <li class="persona-description">Upload and organize research articles, scanned book pages, and other data</li>
               <li class="persona-description">Create new word documents within the app to take notes</li>
             </ul>
           <!-- Frustrations -->
-          <h6 class="persona-subheadings">Frustrations</h6>
+          <p class="persona-subheadings">Frustrations</p>
            <ul class="frustrations">
              <li class="persona-description">Cannot add tags or labels to content as a different way to organize content</li>
              <li class="persona-description">Accessing content from mobile when on the go is not as robust as from a laptop or desktop</li>
            </ul>
            <!-- Motivations -->
-           <h6 class="persona-subheadings">Motivations</h6>
-           <p class="persona-description">As a PhD student, Caleb needs to organize massive amounts of research articles, scanned documents, and other data he compiles.<br><br>
-             To carry around all of these documents wherever he goes is messy, so Caleb lives off of cloud storage. However, he wishes there were a way to add tags to his content--so if he searches “Post-War 1950,” he can see across all folders the content related to this topic.
+           <p class="persona-subheadings">Motivations</p>
+           <p class="persona-description">As a PhD student, Caleb needs to organize massive amounts of research articles, scanned documents, and other data he compiles.</p>
+           <p class="persona-description">To carry around all of these documents wherever he goes is messy, so Caleb lives off of cloud storage. However, he wishes there were a way to add tags to his content--so if he searches “Post-War 1950,” he can see across all folders the content related to this topic.
            </p>
         </div> <!-- end of grey container block -->
       </div> <!-- end of Caleb's persona block -->
@@ -327,39 +330,39 @@
   <div class="long-section-heading-group">
     <h2 class="section-heading">03 Information Architecture</h2>
       <div class=overview> <!-- lists out Plan, Prototype, Test + Redesign -->
-        <h5 class="long-section-heading-title">Overview</h5>
+        <h3 class="long-section-heading-title">Overview</h3>
 
         <div class="plan">
           <span class="circle"></span>
           <span class="dotted-line"></span>
-          <h5 class="long-section-heading-title">Plan</h5>
-            <span class="uxprocess-tag">User Stories</span>
-            <span class="uxprocess-tag">User Flows</span>
-            <span class="uxprocess-tag">Sitemap</span>
-            <span class="uxprocess-tag">Content Strategy</span>
+          <h4 class="long-section-heading-title">Plan</h4>
+            <span class="pill-label">User Stories</span>
+            <span class="pill-label">User Flows</span>
+            <span class="pill-label">Sitemap</span>
+            <span class="pill-label">Content Strategy</span>
         </div>
 
         <div class="prototype">
           <span class="circle"></span>
           <span class="dotted-line"></span>
-          <h5 class="long-section-heading-title">Prototype</h5>
-            <span class="uxprocess-tag">Sketching</span>
-            <span class="uxprocess-tag">Wireframes</span>
-            <span class="uxprocess-tag">Low-Fi Prototype</span>
+          <h4 class="long-section-heading-title">Prototype</h4>
+            <span class="pill-label">Sketching</span>
+            <span class="pill-label">Wireframes</span>
+            <span class="pill-label">Low-Fi Prototype</span>
         </div>
 
         <div class="ia-testAndRedesign">
           <span class="circle"></span>
           <span class="dotted-line"></span>
-          <h5 class="long-section-heading-title">Test + Redesign</h5>
-            <span class="uxprocess-tag">Usability Testing</span>
+          <h4 class="long-section-heading-title">Test + Redesign</h4>
+            <span class="pill-label">Usability Testing</span>
         </div>
 
       </div> <!-- End of overview list -->
   </div> <!-- correponds to <div class="long-section-heading-group"> -->
 
   <!-- PLAN -->
-  <div class="ia-plan-subsection">
+  <section class="ia-plan-subsection">
     <h2 class="smallcaps-large-heading">Plan<span class="subdivider-plan"></span></h2>
     <div class="userStoriesAndFlows-subgroup">
       <h3 class="section-subheading">User Stories and User Flows</h3>
@@ -372,10 +375,10 @@
         <img class="userflows" src="images/userflow2.png" alt="User flow" srcset="images/userflow2.png 2x">
         <a class="button" href="https://www.figma.com/file/UTKs1e8Mo0XD8RKyCC07MZBY/Cloud-Storage-User-Flows" target="_blank">View All Flows</a>
     </div> <!-- wraps up userStoriesAndFlows subgroup -->
-  </div> <!-- corresponds to <div class="ia-plan-subsection"> -->
+  </section> <!-- corresponds to <div class="ia-plan-subsection"> -->
 
   <!-- PROTOTYPE -->
-  <div class="ia-prototype-subsection">
+  <section class="ia-prototype-subsection">
     <h2 class="smallcaps-large-heading">Prototype<span class="subdivider-prototype"></span></h2>
     <div class="sketching-subgroup">
       <h3 class="section-subheading">Sketching - Wireframes - Low-Fi Prototype</h3>
@@ -393,35 +396,35 @@
         <img class="wireframe" src="images/wireframe2.png" alt="Wireframe image" srcset="images/wireframe2.png 2x">
       </div> <!-- corresponds with <div class="sketchesAndWireframes-container"> -->
    </div> <!-- corresponds to <div class="sketching-subgroup"> wraps up sketch/wire/prot subgroup -->
-  </div> <!-- corresponds to  <div class="ia-prototype-subsection"> wraps up Prototype subsection-->
+  </section> <!-- corresponds to  <div class="ia-prototype-subsection"> wraps up Prototype subsection-->
 
   <!-- TEST + REDESIGN -->
-  <div class="ia-testAndRedesign-subsection">
+  <section class="ia-testAndRedesign-subsection">
     <h2 class="smallcaps-large-heading">Test + Redesign<span class="subdivider-testAndRedesign"></span></h2>
     <div class="testAndRedesign-subgroup">
       <h3 class="section-subheading">Usability Testing</h3>
         <p class="usability-testing-paragraph-text">Using the low-fidelity prototype, I conducted two in-person and two remote usability tests. Up until this point (and based on initial user research), the product’s features had focused on supporting collaboration and categorizing the content.
         </p>
 
-        <h5 class="smallcaps-subheading">Key Insights</h5>
-          <p class="usability=test-insight-paragraph-text">Participants commented on how the side panel features lacked a “project management” component that would aid in their workflow. I uncovered how people’s motivations for accessing the cloud storage apps isn’t simply just to store, view, and organize files -- but rather, it is a hub where they do their work (often across multiple files) in order to accomplish a project.
+        <h4 class="smallcaps-subheading">Key Insights</h4>
+          <p class="usability-test-insight-paragraph-text">Participants commented on how the side panel features lacked a “project management” component that would aid in their workflow. I uncovered how people’s motivations for accessing the cloud storage apps isn’t simply just to store, view, and organize files -- but rather, it is a hub where they do their work (often across multiple files) in order to accomplish a project.
           </p>
 
-        <h5 class="smallcaps-subheading">Design Changes</h5>
+        <h4 class="smallcaps-subheading">Design Changes</h4>
           <p class="design-changes-paragraph-text">Based on this feedback, I knew I had to do something in order to make the app more “productivity” and “project management” focused. Since several users mentioned that they have to keep track of a lot of deadlines, I thought to add a “flagged” feature where you can flag documents that are more time-sensitive that need work.
           </p>
 
         <div class="design-changes-container"> <!-- beginning of blue container that highlights design changes -->
-          <h6 class="caption-heading">Before</h6>
+          <p class="caption-heading">Before</p>
           <p class="caption-descrip">Sidebar panel included only Files, Shared, Starred, and Trash.</p>
           <img class="wireframe" src="images/lowfi-before.png" alt="Wireframe image" srcset="images/lowfi-before.png 2x">
 
-          <h6 class="caption-heading">After</h6>
+          <p class="caption-heading">After</p>
           <p class="caption-descrip">Added Flagged, Pinned, and Labels as additional features to better support project management.</p>
           <img class="wireframe" src="images/lowfi-after.png" alt="Wireframe image" srcset="images/lowfi-after.png 2x">
         </div> <!-- end of blue container for highlighting design changes -->
     </div> <!-- corresponds to <div class="testAndRedesign-subgroup"> -->
-  </div> <!-- corresponds to  <div class="ia-testAndRedesign-subsection"> wraps up Test + Redesign subsection-->
+  </section> <!-- corresponds to  <div class="ia-testAndRedesign-subsection"> wraps up Test + Redesign subsection-->
 </section> <!-- corresponds to <section class="03-information-architecture"> -->
 
 <!-- SECTION 04 VISUAL DESIGN -->
@@ -429,49 +432,50 @@
   <div class="long-section-heading-group">
     <h2 class="section-heading">04 Visual Design</h2>
       <div class=overview> <!-- lists out Branding, High-Fi Mockups, Test + Redesign -->
-        <h5 class="long-section-heading-title">Overview</h5>
+        <h3 class="long-section-heading-title">Overview</h3>
 
         <div class="branding-and-style-guide">
           <span class="circle"></span>
           <span class="dotted-line"></span>
-          <h5 class="long-section-heading-title">Branding + Style Guide</h5>
-            <span class="uxprocess-tag">Brand Story</span>
-            <span class="uxprocess-tag">Logo Design</span>
-            <span class="uxprocess-tag">Color</span>
-            <span class="uxprocess-tag">Typography</span>
+          <h4 class="long-section-heading-title">Branding + Style Guide</h4>
+            <span class="pill-label">Brand Story</span>
+            <span class="pill-label">Logo Design</span>
+            <span class="pill-label">Color</span>
+            <span class="pill-label">Typography</span>
         </div>
 
         <div class="high-fi-mockups">
           <span class="circle"></span>
           <span class="dotted-line"></span>
-          <h5 class="long-section-heading-title">High-Fi Mockups</h5>
-            <span class="uxprocess-tag">Preference Testing</span>
-            <span class="uxprocess-tag">High-Fi Prototype</span>
+          <h4 class="long-section-heading-title">High-Fi Mockups</h4>
+            <span class="pill-label">Preference Testing</span>
+            <span class="pill-label">High-Fi Prototype</span>
         </div>
 
         <div class="vd-testAndRedesign">
           <span class="circle"></span>
           <span class="dotted-line"></span>
-          <h5 class="long-section-heading-title">Test + Redesign</h5>
-            <span class="uxprocess-tag">Usability Testing</span>
+          <h4 class="long-section-heading-title">Test + Redesign</h4>
+            <span class="pill-label">Usability Testing</span>
         </div>
 
       </div> <!-- End of overview list -->
   </div> <!-- correponds to <div class="long-section-heading-group"> -->
 
-<!-- BRANDING + STYLE GUIDE -->
-  <div class="vd-branding-subsection">
+<!-- BRANDING + STYLE GUIDE SUBSECTION -->
+  <section class="vd-branding-subsection">
     <h2 class="smallcaps-large-heading">Branding + Style Guide<span class="subdivider-branding"></span></h2>
     <div class="branding-subgroup"> <!-- Beginning of branding section -->
       <h3 class="section-subheading">Brand Story</h3>
         <p class="brand-story-paragraph-text">With the information architecture in place, our product needed a brand and identity to reinforce our position as a simple-to-use cloud storage service focused on project management and collaboration.
         </p>
         <img class="mindmap" src="images/mindmap.png" alt="Mindmap" srcset="images/mindmap.png 2x">
-        <p class="brand-story-paragraph-text">Through a process of ideation, mind-mapping, and research, the product name “ideaLAB” was chosen.<br><br>
-        <span class="vertical-bar"></span>The word “lab” brings forth an image of a workspace  workspace that’s clean, well-organized, methodical.
-         It’s also a place where creativity and experimentation reside, and there’s also a collaborative component to it as well -- it’s where both individuals and teams  carry out really great work.<br><br>
-         The name ideaLAB reflects a platform that’s a structured workspace for all of your ideas, and helps you manage your projects and facilitates collaboration with others.
-        </p>
+        <div class="brand-story-paragraph-text">
+          <p>Through a process of ideation, mind-mapping, and research, the product name “ideaLAB” was chosen.</p>
+          <span class="vertical-bar"></span><p>The word “lab” brings forth an image of a workspace  workspace that’s clean, well-organized, methodical.
+           It’s also a place where creativity and experimentation reside, and there’s also a collaborative component to it as well -- it’s where both individuals and teams  carry out really great work.</p>
+          <p>The name ideaLAB reflects a platform that’s a structured workspace for all of your ideas, and helps you manage your projects and facilitates collaboration with others.</p>
+        </div>
     </div> <!-- wraps up Branding -->
 
     <div class="logo-subgroup"> <!-- Beginning of Logo -->
@@ -500,10 +504,10 @@
         <img class="font-image" src="images/helvetica.png" alt="Helvetica Neue font" srcset="images/helvetica.png 2x">
     </div> <!-- wraps up Typography -->
 
-  </div> <!-- corresponds to <div class="vd-branding-subsection"> -->
+  </section> <!-- corresponds to <div class="vd-branding-subsection"> -->
 
   <!-- HIGH-FI MOCKUPS SUBSECTION -->
-  <div class="vd-mockups-subsection">
+  <section class="vd-mockups-subsection">
     <h2 class="smallcaps-large-heading">High-Fi Mockups<span class="subdivider-mockups"></span></h2>
     <div class="mockups-subgroup"> <!-- Beginning of High-Fi Mockups section -->
       <h3 class="section-subheading">Preference Testing</h3>
@@ -515,21 +519,19 @@
         <img class="hi-fi-prototype" src="images/hi-fi-prototype.png" alt="High-fidelity prototype" srcset="images/high-fi-prototype.png 2x">
         <a class="button" href="https://projects.invisionapp.com/share/HXRXAF0RDFV#/screens/362576453_Final_Landing_V1" target="_blank">View Prototype</a>
     </div> <!-- correponds to <div class="mockups-subgroup"> -->
-  </div> <!-- corresponds to  <div class="vd-mockups-subsection"> -->
+  </section> <!-- corresponds to  <div class="vd-mockups-subsection"> -->
 </section> <!-- end of 04 VISUAL DESIGN-->
 
 <!-- SECTION 05 TEST -->
 <section class="05-test">
   <div class="section-heading-group">
     <h2 class="section-heading">05 Test</h2>
-    <p class="uxprocess-tag">
-      <span class="uxprocess-tag">Usability Testing</span>
-      <span class="uxprocess-tag">Design Changes</span>
-    </p>
+      <span class="pill-label">Usability Testing</span>
+      <span class="pill-label">Design Changes</span>
   </div> <!-- corresponds to <div class="section-heading-group"> -->
 
-  <div class="usability-key-insights-section">
-    <h5 class="smallcaps-subheading">Key Insights</h5>
+  <section class="usability-key-insights-section">
+    <h3 class="smallcaps-subheading">Key Insights</h3>
     <ol class="usability-key-insights">
       <li>Overall, no one had any issues with performing the tasks flows for the pin and flag feature. Yay!</li>
       <li>Continue to focus on simplying steps within user flows where possible.</li>
@@ -537,19 +539,22 @@
     </ol>
 
     <!-- beginning of Design Changes section that outlines two main design changes -->
-    <h5 class="smallcaps-subheading">Design Changes</h5>
+    <h3 class="smallcaps-subheading">Design Changes</h3>
 
     <!-- DESIGN CHANGE #1: SIMPLIFY FLOW -->
     <div class="simplify-flow">
-      <h6 class="design-changes-heading">Change #1: Simplifying user flows</h6>
+      <h4 class="design-changes-heading">Change #1: Simplifying user flows</h4>
         <p class="design-changes-paragraph-text">Problem: There were still too many steps involved for users to quickly create a new note. The user flow was was to click “New,” select “New note,” and then the user was forced to decide where they wanted to create the new note. After doing so, they had to click on the note itself again in order to access it and start writing. This was far too cumbersome.
         </p>
+
       <div class="simplify-flow-container"> <!-- blue container for design change #1 -->
-        <h6 class="caption-heading">Before</h6>
+        <!-- Before -->
+        <p class="caption-heading">Before</p>
         <p class="caption-descrip">Cumbersome user flow that prevented users from quickly creating a new note.</p>
         <img class="simplify-flow-before" src="images/simplify-flow-before.png" alt="Wireframe" srcset="images/simplify-flow-before.png 2x">
 
-        <h6 class="caption-heading">After</h6>
+        <!-- After -->
+        <p class="caption-heading">After</p>
         <p class="caption-descrip">Improved user flow that involves only two steps before you can get to jotting down your ideas. The user flow was changed so that once you click “New note” the new page automatically pops up, and you decide where to organize it later.</p>
         <img class="simplify-flow-after" src="images/simplify-flow-after.png" alt="Wireframe" srcset="images/simplify-flow-after.png 2x">
       </div> <!-- corresponds to <div class="design-changes-container"> -->
@@ -557,19 +562,23 @@
 
     <!-- DESIGN CHANGE #2: UNDO ACTIONS -->
     <div class="undo-actions">
-      <h6 class="design-changes-heading">Change #2: Provide ways to undo actions</h6>
+      <h4 class="design-changes-heading">Change #2: Provide ways to undo actions</h4>
         <p class="design-changes-paragraph-text">Problem: While users didn’t have a problem flagging or pinning an item, they commented on how they didn’t see a way to “un-flag” or “un-pin” an item if they no longer needed that feature.
         </p>
       <div class="undo-actions-container"> <!-- blue container for design change #2 -->
-        <h6 class="caption-heading">Before</h6>
+
+        <!-- Before -->
+        <p class="caption-heading">Before</p>
         <p class="caption-descrip">There was no way to remove a flagged item if the user clicked on or even hovered over the flag.</p>
         <img class="undo-actions-before" src="images/undo-actions-before.png" alt="Wireframe" srcset="images/undo-actions-before.png 2x">
 
-        <h6 class="caption-heading">After</h6>
+        <!-- After -->
+        <p class="caption-heading">After</p>
         <p class="caption-descrip">To allow users a way to un-flag an item, I implemented a hover effect so that anytime you hover over the flagged folder, ot the folder name, the three vertical dots will show up for you to click on. Once clicking on that, the very first option at the top is to remove.</p>
         <img class="undo-actions-after" src="images/undo-actions-after.png" alt="Wireframe" srcset="images/undo-actions-after.png 2x">
       </div> <!--corresponds to <div class="simplify-flow-container"> -->
     </div> <!-- corresponds to <div class="undo-actions"> -->
+  </section><!-- corresponds to <div class="usability-key-insights-section"> -->
 
    <!-- FINAL PROTOTYPE -->
    <section class="final-prototype">
@@ -578,19 +587,16 @@
       <img class="laptop-mockup" src="images/laptop-mockup.png" alt="ideaLAB Mockup" srcset="images/laptop-mockup.png 2x">
       <a class="button" href="https://projects.invisionapp.com/share/HXRXAF0RDFV#/screens/362576453_Final_Landing_V1" target="_blank">View Prototype</a>
    </section>
-  </div> <!-- corresponds to <div class="usability-key-insights-section"> -->
 </section>
 
   <!-- SUMMARY -->
   <section class="summary">
     <h2 class="summary">Summary</h2>
-      <p class="summary-paragraph-text">
-        Since the cloud storage market is already quite saturated with big players such as Google Drive, Dropbox, and Evernote, it was challenging to think through how a new cloud storage app could differentiate from the competition. ideaLAB taught me the importance of grounding your design in user research and validating ideas through user testing. There were many points throughout the project where I anticipated a certain reaction or preference from users, but actual research proved me wrong.
-        <br><br>
-        Knowing that users wanted something simple, easy, and efficient to support their projects provided the direction and clarity when determining what features would be useful, and how the task sequences should flow.
-        <br><br>
-        Moving forward, ideaLAB could be further refined by expanding out the mobile prototype, so that accessing files from mobile is as seamless as it is on the desktop.
-       </p>
+      <div class="summary-paragraph-text">
+        <p>Since the cloud storage market is already quite saturated with big players such as Google Drive, Dropbox, and Evernote, it was challenging to think through how a new cloud storage app could differentiate from the competition. ideaLAB taught me the importance of grounding your design in user research and validating ideas through user testing. There were many points throughout the project where I anticipated a certain reaction or preference from users, but actual research proved me wrong.</p>
+        <p>Knowing that users wanted something simple, easy, and efficient to support their projects provided the direction and clarity when determining what features would be useful, and how the task sequences should flow.</p>
+        <p>Moving forward, ideaLAB could be further refined by expanding out the mobile prototype, so that accessing files from mobile is as seamless as it is on the desktop.</p>
+     </div>
   </section>
 
   <!-- FOOTER -->
