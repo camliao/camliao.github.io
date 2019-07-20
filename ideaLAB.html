@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <!-- Navigation -->
+  <!-- Header -->
   <nav class="navigation">
     <a class="logo" href="index.html">
       <img class="icon-logo" src="images/personal-logo.png"  alt="Cam logo" srcset="images/personal-logo.png 2x">
@@ -23,6 +23,57 @@
     <a class="nav-links" href="#projects-section">Work</a>
     <a class="nav-links" href="about.html">About</a>
     <a class="nav-links" href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Sticky side menu -->
+  <nav class="menu">
+    <ul>
+      <!-- Overview -->
+      <li><a href="#overview">Overview</a></li>
+        <ul>
+          <li><a href="#problem">Problem</a></li>
+          <li><a href="#solution">Solution</a></li>
+        </ul>
+
+      <!-- Understand -->
+      <li><a href="#understand">Understand</a></li>
+
+      <li><a href="#research">Research</a></li>
+        <ul>
+          <li><a href="#competitive-analysis">Competitive Analysis</a></li>
+          <li><a href="#user-surveys">User Surveys</a></li>
+          <li><a href="#user-interviews">User Interviews</a></li>
+          <li><a href="#user-personas">User Personas</a></li>
+        </ul>
+
+      <!-- Information Architecture -->
+      <li><a href="#information-architecture">Information Architecture</a></li>
+        <ul>
+          <li><a href="#userStoriesAndFlows">User Stories</a></li>
+          <li><a href="#userStoriesAndFlows">User Flows</a></li>
+          <li><a href="#sitemap">Sitemap</a></li>
+          <li><a href="#prototype">Sketching</a></li>
+          <li><a href="#prototype">Wireframes</a></li>
+          <li><a href="#prototype">Low-Fi Prototype</a></li>
+          <li><a href="#usability-testing-1">Usability Testing</a></li>
+        </ul>
+
+      <!-- Visual Design -->
+      <li><a href="#visual-design">Visual Design</a></li>
+        <ul>
+          <li><a href="#branding">Branding</a></li>
+          <li><a href="#mockups">High-Fi Mockups</a></li>
+        </ul>
+
+      <!-- Test -->
+      <li><a href="#test">Test</a></li>
+        <ul>
+          <li><a href="#usability-testing-2">Usability Testing</a></li>
+        </ul>
+
+        <!-- Summary -->
+      <li><a href="#summary">Summary</a></li>
+    </ul>
   </nav>
 
 <!--Intro-->
@@ -75,13 +126,13 @@
 </section> <!-- this div corresponds with <div class="ideaLAB-intro"> -->
 
 <!-- OVERVIEW + DESIGN PROCESS SECTION -->
-<section class="overview">
+<section id="overview">
   <h2 class="section-heading">Overview</h2>
     <div class="column-prob-solution">
-      <h3 class="section-subheading">Problem</h3>
+      <h3 class="section-subheading" id="problem">Problem</h3>
         <p class="problem-paragraph-text">How might we design a cloud storage system that emphasizes project management and collaboration, allowing users to easily organize and prioritize what files they need to work on?
         </p>
-      <h3 class="section-subheading">Solution</h3>
+      <h3 class="section-subheading" id="solution">Solution</h3>
         <p class="solution-paragraph-text">ideaLAB is a cloud storage platform that focuses on project management for your files. ideaLAB allows you to prioritize tasks, set deadlines, and easily organize and separate all of your content -- whether it’s for work or your personal projects.
         </p>
     </div>
@@ -145,7 +196,7 @@
 </section> <!-- corresponds to <section class="design-process"> -->
 
 <!-- SECTION 01 UNDERSTAND -->
-<section class="01-understand">
+<section id="understand">
   <div class="section-heading-group">
     <h2 class="section-heading">01 Understand</h2>
     <p class="uxprocess-tag">
@@ -176,7 +227,7 @@
 </section> <!-- corresponds to <section class="01-understand"> -->
 
 <!-- SECTION 02 RESEARCH -->
-<section class="02-research">
+<section id="research">
   <div class="section-heading-group">
     <h2 class="section-heading">02 Research</h2>
     <p class="uxprocess-tag">
@@ -189,7 +240,7 @@
 
   <!-- Competitive Analysis -->
   <div class="companalysis-subgroup">
-    <h3 class="section-subheading">Competitive Analysis</h3>
+    <h3 class="section-subheading" id="competitive-analysis">Competitive Analysis</h3>
     <p class="companalysis-paragraph-text">To help clarify what direction the cloud storage application should go towards, I began with a competitive analysis to understand what solutions already existed in the market. I looked at three major players: Google Drive, Dropbox, and Evernote. </p>
     <a class="button" href="https://docs.google.com/document/d/1H88lLWf08ZgVn_nbhGyPKbBPc3cUD-ch9ag2ey9zlRI/edit" target="_blank">View Competitive Analysis</a>
 
@@ -215,7 +266,7 @@
 
   <!-- User Surveys -->
   <div class="user-surveys-subgroup">
-    <h3 class="section-subheading">User Surveys</h3>
+    <h3 class="section-subheading" id="user-surveys">User Surveys</h3>
     <p class="user-surveys-paragraph-text">I conducted a user survey to better understand users’ current likes and dislikes with cloud storage apps in the market.</p>
     <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSd8b_bhMyaWk9_3xH_LCn9hn3MboBZqhBa7KRja05MuC9e61Q/closedform" target="_blank">View Survey</a>
 
@@ -232,7 +283,7 @@
 
   <!-- User Interviews -->
   <div class="user-interviews-subgroup">
-    <h3 class="section-subheading">User Interviews</h3>
+    <h3 class="section-subheading" id="user-interviews">User Interviews</h3>
     <p class="user-surveys-paragraph-text">I conducted follow-up interviews with three survey respondents as well. Below are some of the key findings:</p>
 
     <div class="user-interviews-breakdown">
@@ -249,7 +300,7 @@
 
   <!-- User Personas -->
   <div class="user-personas-subgroup">
-    <h3 class="section-subheading">User Personas</h3>
+    <h3 class="section-subheading" id="user-personas">User Personas</h3>
     <p class="user-surveys-paragraph-text">When analyzing the survey and interview data, two main types of users emerged: the Constant Collaborator (works off of multiple documents and collaborates/shares files often), and the Gatherer-Saver persona (someone who collects and uploads many files).
     </p>
 
@@ -327,7 +378,7 @@
 </section> <!-- corresponds to <section class="02-resesarch"> -->
 
 <!-- SECTION 03 INFORMATION ARCHITECTURE -->
-<section class="03-information-architecture">
+<section id="information-architecture">
   <div class="long-section-heading-group">
     <h2 class="section-heading">03 Information Architecture</h2>
       <div class=overview> <!-- lists out Plan, Prototype, Test + Redesign -->
@@ -366,7 +417,7 @@
   <section class="ia-plan-subsection">
     <h2 class="smallcaps-large-heading">Plan<span class="subdivider-plan"></span></h2>
     <div class="userStoriesAndFlows-subgroup">
-      <h3 class="section-subheading">User Stories and User Flows</h3>
+      <h3 class="section-subheading" id="userStoriesAndFlows">User Stories and User Flows</h3>
         <p class="userStoriesAndFlows-paragraph-text">To determine the features going into our minimum viable product (MVP), I created a list of user stories and flows to detail how new and returning users would go through the onboarding process, create content, move files, and more. This information architecture served as a guide and template for creating the product.
         </p>
         <img class="userstories" src="images/userstories.png" alt="User stories" srcset="images/userstories.png 2x">
@@ -376,6 +427,7 @@
         <img class="userflows" src="images/userflow2.png" alt="User flow" srcset="images/userflow2.png 2x">
         <a class="button" href="https://www.figma.com/file/UTKs1e8Mo0XD8RKyCC07MZBY/Cloud-Storage-User-Flows" target="_blank">View All Flows</a>
 
+      <h3 class="section-subheading" id="sitemap">Sitemap</h3>
         <img class="sitemap" src="images/sitemap.png" alt="Sitemap" srcset="images/sitemap.png 2x">
 
     </div> <!-- wraps up userStoriesAndFlows subgroup -->
@@ -385,7 +437,7 @@
   <section class="ia-prototype-subsection">
     <h2 class="smallcaps-large-heading">Prototype<span class="subdivider-prototype"></span></h2>
     <div class="sketching-subgroup">
-      <h3 class="section-subheading">Sketching - Wireframes - Low-Fi Prototype</h3>
+      <h3 class="section-subheading" id="prototype">Sketching - Wireframes - Low-Fi Prototype</h3>
         <p class="sketching-paragraph-text">Based on the user stories and user flows, I sketched a few iterations before developing them into low-fidelity wireframes in Figma. The wireframing stage was important in making sure I was capturing each step of the process and made me realize where user flows may need to be edited. The wireframes were used to create a clickable prototype in Invision for usability testing.
         </p>
         <a class="button" href="https://invis.io/SBRJ99S7KDN" target="_blank">View Low-Fi Prototype</a>
@@ -406,7 +458,7 @@
   <section class="ia-testAndRedesign-subsection">
     <h2 class="smallcaps-large-heading">Test + Redesign<span class="subdivider-testAndRedesign"></span></h2>
     <div class="testAndRedesign-subgroup">
-      <h3 class="section-subheading">Usability Testing</h3>
+      <h3 class="section-subheading" id="usability-testing-1">Usability Testing</h3>
         <p class="usability-testing-paragraph-text">Using the low-fidelity prototype, I conducted two in-person and two remote usability tests. Up until this point (and based on initial user research), the product’s features had focused on supporting collaboration and categorizing the content.
         </p>
 
@@ -432,7 +484,7 @@
 </section> <!-- corresponds to <section class="03-information-architecture"> -->
 
 <!-- SECTION 04 VISUAL DESIGN -->
-<section class="04-visual-design">
+<section id="visual-design">
   <div class="long-section-heading-group">
     <h2 class="section-heading">04 Visual Design</h2>
       <div class=overview> <!-- lists out Branding, High-Fi Mockups, Test + Redesign -->
@@ -468,7 +520,7 @@
 
 <!-- BRANDING + STYLE GUIDE SUBSECTION -->
   <section class="vd-branding-subsection">
-    <h2 class="smallcaps-large-heading">Branding + Style Guide<span class="subdivider-branding"></span></h2>
+    <h2 class="smallcaps-large-heading" id="branding">Branding + Style Guide<span class="subdivider-branding"></span></h2>
     <div class="branding-subgroup"> <!-- Beginning of branding section -->
       <h3 class="section-subheading">Brand Story</h3>
         <p class="brand-story-paragraph-text">With the information architecture in place, our product needed a brand and identity to reinforce our position as a simple-to-use cloud storage service focused on project management and collaboration.
@@ -501,7 +553,7 @@
     </div> <!-- wraps up color -->
 
     <div class="typography-subgroup"> <!-- Beginning of Typography -->
-      <h3 class="section-subheading">Typorgraphy</h3>
+      <h3 class="section-subheading">Typography</h3>
         <p class="typography-paragraph-text">For the brand typeface, we use Poppins because of its friendly and approachable appearance -- we wanted ideaLAB to feel like an inviting space for ideas and projects. For the complementary typeface, we selected Helvetica Neue for its more “no-nonsense” straighter edges, to convey a sense of structure and precision.
         </p>
         <img class="font-image" src="images/poppins.png" alt="Poppins font" srcset="images/poppins.png 2x">
@@ -512,7 +564,7 @@
 
   <!-- HIGH-FI MOCKUPS SUBSECTION -->
   <section class="vd-mockups-subsection">
-    <h2 class="smallcaps-large-heading">High-Fi Mockups<span class="subdivider-mockups"></span></h2>
+    <h2 class="smallcaps-large-heading" id="mockups">High-Fi Mockups<span class="subdivider-mockups"></span></h2>
     <div class="mockups-subgroup"> <!-- Beginning of High-Fi Mockups section -->
       <h3 class="section-subheading">Preference Testing</h3>
         <p class="preference-testing-paragraph-text">With a brand style guide now, and using the feedback from the first round of usability testing with wireframes, I created high-fidelity mockups. Before putting together a high-fi prototype, I conducted a few preference tests to help make some key design decisions.
@@ -527,14 +579,14 @@
 </section> <!-- end of 04 VISUAL DESIGN-->
 
 <!-- SECTION 05 TEST -->
-<section class="05-test">
+<section id="test">
   <div class="section-heading-group">
     <h2 class="section-heading">05 Test</h2>
       <span class="pill-label">Usability Testing</span>
       <span class="pill-label">Design Changes</span>
   </div> <!-- corresponds to <div class="section-heading-group"> -->
 
-  <section class="usability-key-insights-section">
+  <section class="usability-key-insights-section" id="usability-testing-2">
     <h3 class="smallcaps-subheading">Key Insights</h3>
     <ol class="usability-key-insights">
       <li>Overall, no one had any issues with performing the tasks flows for the pin and flag feature. Yay!</li>
@@ -594,7 +646,7 @@
 </section>
 
   <!-- SUMMARY -->
-  <section class="summary">
+  <section id="summary">
     <h2 class="summary">Summary</h2>
       <div class="summary-paragraph-text">
         <p>Since the cloud storage market is already quite saturated with big players such as Google Drive, Dropbox, and Evernote, it was challenging to think through how a new cloud storage app could differentiate from the competition. ideaLAB taught me the importance of grounding your design in user research and validating ideas through user testing. There were many points throughout the project where I anticipated a certain reaction or preference from users, but actual research proved me wrong.</p>
