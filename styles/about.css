@@ -1,0 +1,88 @@
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/lato-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url('../fonts/lato-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/lato-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/lato-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/lato-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/lato-v15-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
+}
+
+/** Structure **/
+
+body {
+  padding: 0 10rem;
+}
+
+.container {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+}
+
+.header {
+  grid-column: 1 / -1;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+#about-me {
+  grid-column: 1 / -1;
+}
+.about-me-heading {
+  grid-column: 1 / -1;
+}
+
+/* I thought by setting the grid column to start from 6 (middle of the page) to the end would
+allow for my "About Me" paragraph text to be aligned right after my photo. */
+.about-me-paragraph {
+  grid-column: 6 / -1;
+  grid-row: 2 / 3;
+}
+
+#fun-facts {
+  grid-column: 1 / -1;
+  grid-row: 3 / 4;
+}
+
+.favorite-books {
+  grid-column: 2 / -1;
+}
+
+#caller-letter {
+  grid-column: 1 / -1;
+}
+
+.footer {
+  grid-column: 1/-1;
+}
+
+
+/*** Typography ***/
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.1rem;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  padding: 1.2rem 0;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+}
+
+strong {
+  color: #FF2638;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+}
+
+.nav-links {
+  font-family: 'Nunito', sans-serif;
+}
