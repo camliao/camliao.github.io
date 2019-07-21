@@ -12,56 +12,6 @@
        url('../fonts/lato-v15-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
 }
 
-/** Structure **/
-
-body {
-  padding: 0 10rem;
-}
-
-.container {
-  display: grid;
-  grid-gap: 3px;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: auto;
-}
-
-.header {
-  grid-column: 1 / -1;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-}
-
-#about-me {
-  grid-column: 1 / -1;
-}
-.about-me-heading {
-  grid-column: 1 / -1;
-}
-
-/* I thought by setting the grid column to start from 6 (middle of the page) to the end would
-allow for my "About Me" paragraph text to be aligned right after my photo. */
-.about-me-paragraph {
-  grid-column: 6 / -1;
-  grid-row: 2 / 3;
-}
-
-#fun-facts {
-  grid-column: 1 / -1;
-  grid-row: 3 / 4;
-}
-
-.favorite-books {
-  grid-column: 2 / -1;
-}
-
-#caller-letter {
-  grid-column: 1 / -1;
-}
-
-.footer {
-  grid-column: 1/-1;
-}
-
 
 /*** Typography ***/
 h2 {
@@ -75,6 +25,7 @@ h2 {
 p {
   font-family: "Nunito", sans-serif;
   font-size: 1.6rem;
+  line-height: 167.2%;
 }
 
 strong {
@@ -85,4 +36,30 @@ strong {
 
 .nav-links {
   font-family: 'Nunito', sans-serif;
+}
+
+/** Structure **/
+
+body {
+  padding: 0 10rem;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#about-me > .about-me-container1 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+  padding-top: 5rem;
+}
+
+#about-me > .about-me-container2 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  padding-top: 8.5rem;
+  width: 480px;
 }

@@ -7,35 +7,5 @@ html {
 }
 
 img {
-    display: block;
-}
-
-
-/* .container {
-  margin: 0 auto;
-  width: 100%
-} */
-
-p {
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 200;
-  line-height: 167.2%;
-}
-
-/* for header nav, make it go 12 rows across */
-
-nav.header {
-  display: grid;
-  grid-template-columns: 100px 1fr 100px;
-}
-
-.nav-links {
-    align-items: center;
-    color: #282828;
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.6rem;
-    text-decoration: none;
-    margin-left: 1.8rem;
-    grid-column: -1
+    display: flex;
 }
