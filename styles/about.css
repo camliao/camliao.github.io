@@ -14,8 +14,10 @@
 
 img {
   display: block;
-  padding: 1rem 2rem;
+  padding-top: 1.1rem;
+  padding-right: 2rem;
 }
+
 /*** Typography ***/
 h2 {
   font-family: 'Lato', sans-serif;
@@ -23,14 +25,16 @@ h2 {
   font-weight: 600;
   line-height: 167.2%;
   letter-spacing: 0.7px;
-  padding: 0.3rem 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 p {
   font-family: "Nunito", sans-serif;
   font-size: 1.6rem;
   line-height: 167.2%;
-  padding: 1.1rem 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 strong {
@@ -47,6 +51,11 @@ strong {
 
 body {
   margin: 0;
+  padding: 0 2rem;
+}
+
+.content-wrapper {
+
 }
 
 .grid {
@@ -57,27 +66,58 @@ p.lesson {
   margin-left: 2.5rem;
 }
 
+
 #books {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 100px 100px;
+  grid-template-columns: 0.1fr 1fr;
+  padding-bottom: 1rem;
 }
 
-#books > div.content-wrapper {
+#kryptonite {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-
+  grid-template-columns: 0.1fr 1fr;
+  padding-bottom: 2rem;
 }
 
+#vacation {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  padding-bottom: 1rem;
+}
 
+footer.icon {
+  display: flex;
+  flex-direction: row;
+}
 
+.copyright {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+footer {
+  width: 100%;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
 
 /* Media Queries */
 @media(min-width: 600px) {
+
+  body {
+    margin: 0;
+    padding: 0 5rem;
+  }
+
+  
+
   .grid {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-
   }
 
   #about-me > div:nth-child(2n) {
