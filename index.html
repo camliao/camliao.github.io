@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles/reset.css">
@@ -19,45 +19,51 @@
 
   </head>
 
-  <body>
+
     <!-- Navigation -->
-    <nav class="navigation">
+    <body>
+    <div class="header">
       <a class="logo" href="index.html">
         <img class="icon-logo" src="images/personal-logo.png"  alt="Cam logo" srcset="images/personal-logo.png 2x">
       </a>
+      <nav class="nav-links">
       <a class="nav-links" href="ideaLAB.html">Work</a>
       <a class="nav-links" href="about.html">About</a>
       <a class="nav-links" href="contact.html">Contact</a>
     </nav>
+    </div>
 
     <!-- Intro section -->
+
     <header class="header-home">
-      <h1 class="intro">Hi there!  I'm Cam — it's nice to meet you.<br>
-        I'm a UX/UI Designer in Atlanta.</h1>
+      <div class="intro-statement">
+        <h1 class="intro">Hi there!  I'm Cam — it's nice to meet you.<h1>
+        <h1 class="intro">I'm a UX/UI Designer in Atlanta.</h1>
+     </div>
 
-      <div class="intro-subgroup">
-        <div class="subgroup-1">
-          <img class="icon-phone" src="images/icon-phone.png" alt="Phone icon" srcset="images/icon-phone.png 2x">
-          <p class="intro-fact"> Design is more than just the pixels on the screen. I’m here to craft<br>
-            meaningful and thoughtfully-designed experiences for others.</p>
+
+     <div class="intro-subgroup">
+        <div class="nestedgrid">
+          <img class="icon-intro" src="images/icon-phone.png" alt="Phone icon" srcset="images/icon-phone.png 2x">
+          <p class="intro-fact-1"> Design is more than just the pixels on the screen. I’m here to craft meaningful and thoughtfully-designed experiences for others.</p>
         </div>
 
-        <div class="subgroup-2">
-          <img class="icon-phone" src="images/icon-call-agent.png" alt="Call agent icon" srcset="images/icon-call-agent.png 2x">
-          <p class="intro-fact">I’ve worked as a call center representative: learning about customers’<br>
-            frustrations made me really put myself in their shoes.</p>
+        <div class="nestedgrid">
+          <img class="icon-intro" src="images/icon-call-agent.png" alt="Call agent icon" srcset="images/icon-call-agent.png 2x">
+          <p class="intro-fact-2">I’ve worked as a call center representative: learning about customers’ frustrations made me really put myself in their shoes.</p>
         </div>
 
-        <div class="subgroup-3">
-          <img class="icon-phone" src="images/icon-coffee.png" alt="Coffee icon" srcset="images/icon-coffee.png 2x">
-          <p class="intro-fact">I also drink too much coffee and geek out over fonts sometimes.</p>
+        <div class="nestedgrid">
+          <img class="icon-coffee" src="images/icon-coffee.png" alt="Coffee icon" srcset="images/icon-coffee.png 2x">
+          <p class="intro-fact-3">I also drink too much coffee and geek out over fonts sometimes.</p>
         </div>
-      </div>
+    </div>
+
     </header>
 
     <!-- Work -->
     <section class="work">
-      <h2 class="Work">Work</h2>
+      <h2 class="work-heading">Work</h2>
         <div class="project-info">
             <h3 class="project-title">ideaLAB</h3>
             <p class="project-description">A cloud storage application that focuses on productivity and project management.</p>
@@ -67,22 +73,31 @@
         <img class="mockup-laptop" src="images/laptop-prototype-home.png" alt="Mockup" srcset="images/laptop-prototype-home.png 2x">
    </section>
 
-    <!-- Footer -->
-    <footer>
-      <span class="footer-line"></span>
-        <ul class="social-links">
-            <li>
-              <a href="mailto:camkliao@gmail.com" target="_blank"><img class="icon" src="images/icon-gmail.png" alt="Gmail icon" srcset="images/icon-gmail.png 2x"></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/camliao/" target="_blank"><img class="icon" src="images/icon-linkedin.png" alt="LinkedIn icon" srcset="images/icon-linkedin.png 2x"></a>
-            </li>
-            <li>
-              <a href="https://github.com/camliao" target="_blank"><img class="icon" src="images/icon-github.png" alt="Github icon" srcset="images/icon-github.png 2x"></a>
-            </li>
-        </ul>
-        <p class="copyright">© 2019. Designed + developed by Cam Liao.</p>
-    </footer>
+   <!-- Footer -->
+   <footer>
+     <span class="footer-line"></span>
+       <ul class="footer-links">
+         <div class="content-wrapper"
+         <li><a href="mailto:camkliao@gmail.com" target="_blank">
+           <img class="icon-footer" src="images/icon-gmail.png" alt="Gmail icon" srcset="images/icon-gmail.png 2x"></a>
+         </li>
+         </div>
+
+         <div class="content-wrapper">
+         <li><a href="https://www.linkedin.com/in/camliao/" target="_blank">
+           <img class="icon-footer" src="images/icon-linkedin.png" alt="LinkedIn icon" srcset="images/icon-linkedin.png 2x"></a>
+         </li>
+         </div>
+
+         <div class="content-wrapper">
+         <li><a href="https://github.com/camliao" target="_blank">
+           <img class="icon-footer" src="images/icon-github.png" alt="Github icon" srcset="images/icon-github.png 2x"></a>
+         </li>
+         </div>
+
+       </ul>
+       <p class="copyright">© 2019. Designed + developed by Cam Liao.</p>
+   </footer>
 
 
   </body>

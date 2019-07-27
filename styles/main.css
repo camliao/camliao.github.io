@@ -1,3 +1,4 @@
+/** Global **/
 * {
     box-sizing: border-box;
 }
@@ -7,6 +8,67 @@ html {
     scroll-behavior: smooth;
 }
 
-img {
+
+/** Header / Nav **/
+img.icon-logo {
+    display: block;
+    width: 60px;
+    height: auto;
+}
+
+
+
+div.header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/** Footer **/
+.copyright {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 200;
+}
+
+footer {
+  width: 100%;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Media Queries */
+@media(max-width: 400px) { /* makes it so that the nav links don't show up on mobile; menu icon shows up instead**/
+  .nav-links {
+    display: none;
+  }
+}
+
+@media(min-width: 400px) {
+
+  .nav-links {
     display: flex;
+    justify-content: flex-end;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    text-decoration: none;
+    color: #000000;
+
+    position: relative;
+    letter-spacing: 0.5px;
+    padding-left: 4rem;
+
+
+  }
 }

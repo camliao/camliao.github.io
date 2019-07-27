@@ -1,4 +1,137 @@
-.container {
+
+/** Typography **/
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  line-height: 120%;
+  padding-bottom: 1.3rem;
+}
+
+h2.work-heading {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+h3.project-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+}
+
+p {
+  font-weight: 300;
+}
+
+
+/** Structure **/
+body {
+  min-width: 300px;
+}
+
+
+div.header {
+  padding-bottom: 5rem;
+}
+
+
+.intro-statement {
+  padding-bottom: 3rem;
+}
+
+.intro-subgroup {
   display: grid;
-  grid-template-columns: 100px repeat(12, 1fr) 100px;
+  grid-template-columns: 1fr;
+
+}
+
+.nestedgrid {
+  display: grid;
+  grid-template-columns: 0.18fr 1fr;
+  grid-template-columns: min-content auto;
+  padding-bottom: 2rem; /** controls spacing in between the facts **/
+  position: center;
+}
+
+
+section.work {
+  padding-bottom: 10rem;
+
+}
+
+
+/** Footer **/
+.copyright {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+footer {
+  width: 100%;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+/** Image and Icon Resizing/Restyling **/
+img {
+  display: block;
+  padding-top: 1.1rem;
+  padding-right: 2rem;
+}
+
+img.icon-intro {
+  width: 70px;
+  height: auto;
+}
+
+img.icon-coffee {
+  width: 65px;
+  padding: 0rem;
+}
+
+
+img.icon-footer {
+  width: 60px;
+  height: auto;
+}
+
+img.mockup-laptop {
+  width: 380px;
+  height: auto;
+}
+
+/** Media Queries **/
+@media(max-width: 600px) {
+
+}
+
+
+@media(min-width: 600px) {
+
+  body {
+    padding: 0 10rem;
+  }
+
+  .intro-statement {
+    min-width: 500px;
+    text-align: center;
+  }
+
+  div.intro-subgroup {
+    align-items: center;
+    justify-content: center; /** this helps center the icons + statements right under the main intro statement **/
+    padding: 0 20%;
+    position: sticky;
+
+  }
+
+
 }
