@@ -16,12 +16,14 @@ img.icon-logo {
     height: auto;
 }
 
-
-
 div.header {
   display: grid;
   grid-template-columns: 1fr auto;
+
+  padding-top: 3rem;
+  padding-bottom: 8rem;
 }
+
 
 .nav-links {
   display: flex;
@@ -54,7 +56,6 @@ footer {
 }
 
 @media(min-width: 400px) {
-
   .nav-links {
     display: flex;
     justify-content: flex-end;
@@ -66,9 +67,9 @@ footer {
     color: #000000;
 
     position: relative;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.7px;
     padding-left: 4rem;
-
-
   }
+
+
 }
