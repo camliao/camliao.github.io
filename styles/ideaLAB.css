@@ -1,0 +1,36 @@
+body.ideaLAB {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+main.ideaLAB {
+  display: grid;
+  grid-template-columns: 1/3;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-height: 300px) {
+  nav ul.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: black;
+  text-decoration: none;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+nav ul li a.current {
+  background: black;
+}

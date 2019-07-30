@@ -1,10 +1,6 @@
-
-/* img {
-  padding-top: 1.1rem;
-  padding-right: 2rem;
-} */
-
-
+img.about-me-picture {
+  width: 100%;
+}
 
 /*** Typography ***/
 h2.content-heading {
@@ -25,8 +21,9 @@ p {
   padding-bottom: 1rem;
 }
 
+
 strong {
-  color: #FF2638;
+  color: #FF6238;
   font-family: "Nunito", sans-serif;
   font-weight: 900;
 }
@@ -39,6 +36,13 @@ strong {
 
 /** Structure and Spacing **/
 
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+
+}
 
 .grid {
   padding-bottom: 3rem; /** controls spacing between each section **/
@@ -49,9 +53,10 @@ p.lesson {
 }
 
 
+
 #books {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto 1fr 0.55fr;
   padding-bottom: 1rem;
 }
 
@@ -66,6 +71,16 @@ p.lesson {
   grid-template-columns: auto 1fr;
   padding-bottom: 1rem;
 }
+
+
+/** Letter **/
+#caller-letter {
+  display: grid;
+  grid-template-columns: 1fr 0.3fr;
+}
+
+
+/** Footer **/
 
 .copyright {
     text-align: center;
@@ -95,15 +110,12 @@ footer {
 
   #about-me.grid {
     display: grid;
-    grid-template-columns: auto minmax(auto,540px); /** tells browser not to stretch out my text past 540px **/
-    justify-content: center;
+    grid-template-columns: 300px minmax(auto, 500px); /** tells browser not to stretch out my text past a certian point **/
   }
 
   #about-me > div:nth-child(2n) {
     padding-top: 5rem;
   }
-
-
 
   p {
     max-width: 600px;

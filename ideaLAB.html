@@ -18,20 +18,27 @@
   <link rel="stylesheet" href="styles/ideaLAB.css">
 </head>
 
-<body>
-  <!-- Header -->
-  <nav class="navigation">
+
+  <!-- Navigation -->
+
+  <div class="header">
+    <nav class="nav-links">
     <a class="logo" href="index.html">
       <img class="icon-logo" src="images/personal-logo.png"  alt="Cam logo" srcset="images/personal-logo.png 2x">
     </a>
+
+
     <a class="nav-links" href="ideaLAB.html">Work</a>
     <a class="nav-links" href="about.html">About</a>
     <a class="nav-links" href="contact.html">Contact</a>
-  </nav>
 
+  </nav>
+  </div>
+
+<body class="ideaLAB">
   <!-- Sticky side menu -->
   <nav class="menu">
-    <ul>
+    <ul class="sticky">
       <!-- Overview -->
       <li><a href="#overview">Overview</a>
         <ul>
@@ -85,6 +92,7 @@
     </ul>
   </nav>
 
+<main class="ideaLAB">
 <!--Intro-->
 <section class="intro">
   <img class="laptop-mockup" src="images/laptop-mockup.png"  alt="ideaLAB mockup" srcset="images/laptop-mockup.png 2x">
@@ -135,6 +143,7 @@
 </section> <!-- this div corresponds with <div class="ideaLAB-intro"> -->
 
 <!-- OVERVIEW + DESIGN PROCESS SECTION -->
+
 <section id="overview">
   <h2 class="section-heading">Overview</h2>
     <div class="column-prob-solution">
@@ -147,7 +156,7 @@
     </div>
 </section> <!-- correspondes to <section class="overview"> -->
 
-<section class="design-process">
+<section id="design-process">
   <h2 class="section-heading">The Design Process</h2>
     <div class="design-process-container">
       <div class="column1-understand">
@@ -680,7 +689,7 @@
       </ul>
       <p class="copyright">© 2019. Designed + developed by Cam Liao.</p>
   </footer>
-
+</main>
 
 </body>
 </html>

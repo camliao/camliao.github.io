@@ -14,11 +14,12 @@ img.icon-logo {
     display: block;
     width: 60px;
     height: auto;
+
 }
 
 div.header {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr;
 
   padding-top: 3rem;
   padding-bottom: 8rem;
@@ -28,7 +29,7 @@ div.header {
 .nav-links {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 /** Footer **/
@@ -58,7 +59,7 @@ footer {
 @media(min-width: 400px) {
   .nav-links {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
